@@ -1,7 +1,10 @@
 package main
 
-import "backend/loaders/fiber"
+import (
+	"backend/loaders/socket"
+)
 
 func main() {
-	fiber.Init()
+	socket.Init()
+	// fiber.Init()
 }
